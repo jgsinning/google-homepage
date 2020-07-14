@@ -35,9 +35,14 @@ body {
     background-color: royalblue;
     color: white;
     font-weight: bold;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.7rem;
     border-radius: 3px;
     border-color: transparent;
+    transition-duration: 0.1s;
+}
+
+.nav-bar button:hover {
+    box-shadow: 0 0 3px black;
 }
 
 .logo-bar {
@@ -53,10 +58,15 @@ body {
     display: flex;
     justify-content: center;
     border-style: solid;
-    border-color: gray;
+    border-color: rgb(180, 180, 180);
     border-width: 1px;
     border-radius: 1.5rem;
     align-items: center;
+    transition-duration: 0.1s;
+}
+
+.search-bar:hover {
+    box-shadow: 0 0 3px gray;
 }
 
 .search-img {
@@ -82,7 +92,13 @@ body {
     margin: 0 0.5rem;
     padding: 0.5rem 1rem;
     border-color: transparent;
+    border-width: 1px;
     border-radius: 0.2rem;
+    transition-duration: 0.1s;
+}
+
+.buttons-bar button:hover {
+    border-color: gray;
 }
 
 footer {
@@ -114,4 +130,8 @@ footer a {
 .footer-right {
     margin-right: 1rem;
     align-content: right;
+}
+
+a:hover {
+    text-decoration: underline;
 }
